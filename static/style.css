@@ -147,14 +147,15 @@ footer:nth-child(2){
 
 #quadroMenor{
     width: 770px;
-    margin-left: 458px;
+    margin-left: 590px;
     margin-top: 160px;
     color: white;
 }
 
 #quadroMenor h1{
     margin-top: 180px;
-    margin-left: 156px;
+    margin-left: 241px;
+    color: black;
 }
 
 #quadroMenor p{
@@ -190,15 +191,15 @@ footer:nth-child(2){
     display: flex;
     flex-direction: column;
     width: 396px;
-    margin-left: 25px;
+    margin-left: 109px;
     margin-top: 23px;
-    background-color: #99C0DD;
+    /* background-color: #99C0DD; */
     padding: 37px;
 }
 
 #quadroMenor1 button{
     border: 0px;
-    color: white;
+    color: black;
     font-size: 20px;
     cursor: pointer;
     margin-top: 28px;
@@ -208,7 +209,7 @@ footer:nth-child(2){
 input{
     margin-top: 10px;
     border-radius: 10px;
-    padding: 5px;
+    padding: 5px;           
 }
 
 #calendario{
@@ -216,8 +217,8 @@ input{
 }
 
 #parallax4{
-    background-image: url('./pag3.jpg');
-    height: 900px;
+    background-image: url('./bgagenda.jpg');
+    height: 850px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -238,8 +239,14 @@ input{
 
 #box div{
     width: 428px;
-    margin-top: 170px;
-    margin-left: 607px;
-    background-color: #99C0DD;
+    margin-top: -357px;
+    margin-left: 501px;
+    /* background-color: #99C0DD; */
     padding: 40px;
+}
+#boxx{
+    width: 428px;
+    margin-top: -210px;
+    margin-left: 544px;
+
 }
