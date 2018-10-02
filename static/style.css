@@ -1,0 +1,245 @@
+body{
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#cabeçalho{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 188px;
+    
+}
+
+#botoeshome{
+    display: flex;
+    align-items: flex-start;
+    height: 89px;
+    margin: 0%;
+    width: 100%;
+    position: relative;
+    top: 2px;
+    margin-top: -7px;
+    background-color: rgba(153, 192, 221, 0.712);
+}
+
+#botoeshome a:hover{
+    transform: scale(1.2);
+}
+
+#botoeshome a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1em;
+    border-bottom: 3px solid rgb(133, 199, 159);
+    transition: 1s;
+    margin-left: 100px;
+    margin-top: 22px;
+}
+
+.botao2{width: 150px;
+    margin-left: 900px;
+    margin-top: 180px;
+    position: relative;
+}
+
+.parallax{
+    height: 668px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    background-color: #99C0DD;
+}
+.parallax2{
+    height: 750px;
+    background-color: #f2b741c0;
+}
+
+.parallax:nth-child(1){
+    background-image: url(../static/Lane.jpg);
+}
+
+#botoes{
+    width: 40%;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#bloco2{
+    display: flex;
+    height: 719px;
+    background-color: #99C0DD;
+    flex-direction: column;
+}
+
+footer{
+    margin: 0;
+    justify-content: center;
+    height: 130px;
+    align-items: center;
+    background-color: rgba(153, 192, 221, 0.671);
+    display: flex;
+    color:black;
+    
+}
+
+#icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 470px;
+}
+
+#icons a{
+    border-radius: 50px;
+    padding: 10px;
+}
+
+#icons a:hover{
+    cursor: pointer;
+    background-color: rgb(133, 199, 159);
+}
+
+footer:nth-child(2){
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon{
+    height: 50px;
+}
+
+#localizacao{
+    line-height: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    margin-top: 26px;
+    display: flex;
+    margin-left: 70px;
+}
+
+.container2{
+    margin-top: 26px;
+    display: flex;
+    margin-left: 446px;
+}
+
+.texto{
+    margin-left: 74px;
+    display: flex;
+    align-items: center;
+    width: 589px;
+}
+
+.img2{
+    height: 200px;
+    width: 200px;
+    border-radius: 40px;
+}
+
+#quadroMenor{
+    width: 770px;
+    margin-left: 458px;
+    margin-top: 160px;
+    color: white;
+}
+
+#quadroMenor h1{
+    margin-top: 180px;
+    margin-left: 156px;
+}
+
+#quadroMenor p{
+    margin-left: 121px;
+    padding: 30px;
+    background-color: #99C0DD;
+}
+
+#quadroMaior{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+#parallax2{
+    margin-bottom: 50px;
+    background-image: url(./pag2.jpg);
+    height: 715px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax3{
+    background-image: url('./pag3.png');
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#quadroMenor1{
+    display: flex;
+    flex-direction: column;
+    width: 396px;
+    margin-left: 25px;
+    margin-top: 23px;
+    background-color: #99C0DD;
+    padding: 37px;
+}
+
+#quadroMenor1 button{
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 28px;
+    background-color: rgba(219, 158, 101, 0);
+}
+
+input{
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#calendario{
+    margin-left: 277px;
+}
+
+#parallax4{
+    background-image: url('./pag3.jpg');
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax4 h1{
+    margin-bottom: 50px;
+    color: black;
+    margin-left: 560px;
+    margin-top: 50px;
+}
+
+#box{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+#box div{
+    width: 428px;
+    margin-top: 170px;
+    margin-left: 607px;
+    background-color: #99C0DD;
+    padding: 40px;
+}
