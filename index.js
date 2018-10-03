@@ -25,9 +25,10 @@ app.get('/views/index.ejs', (req, res) => {
 });
 
 
-app.post('', (req, res) => {
-    req.db.collection('parceiro').insert(req.body, (erro) => {
-        res.render('/parceiros');
+
+app.get('/admin/parceiros', (req, res) => {
+    req.db.collection('parceiros').find().toArray((erro, dados) => {
+        res.render('admin-parceiros', {'parceiros': dados});
     });
 });
 
@@ -35,31 +36,13 @@ app.post('', (req, res) => {
     let string = `Nome: ${req.body.nome} \nEmail: ${req.body.email} \nTelefone: ${req.body.telefone} \n`;
 })  
 
+app.post('', (req, res) => {
+    req.db.collection('parceiros').insert(req.body, (erro) => {
+        console.log(erro);
+        res.render('obrigado');
+    });
+});
 
-
-
-
-// app.get('/admin/mensagens', (req, res) => {
-//     req.db.collection('mensagens').find().toArray((erro, dados) => {
-//         res.render('admin-parceiros', {'mensagens': dados});
-//     });
-// });
-
-
-
-
-// app.post('', (req, res) => {
-//     req.db.collection('parceiros').insert(req.body, (erro) => {
-//         console.log(erro);
-//         res.render('obrigado.ejs');
-//     });
-// });
-
-// app.get('/admin/parceiros', (req, res) => {
-//     req.db.collection('parceiros').find().toArray((erro, dados) => {
-//         res.render('admin-parceiros', {'parceiros': dados});
-//     });
-// });
 
 
 app.listen(4000, () => {
